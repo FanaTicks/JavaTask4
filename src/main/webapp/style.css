@@ -1,0 +1,65 @@
+.login {
+    width: 300px; /* Set a width if you like */
+    background-color: #eee; /* Grey background color */
+}
+
+h3{
+    background-color: #DCDCDC;/* Grey background color h3*/
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    color: #fff;
+    background: #4CAF50;/* green background color */
+    border: 0;
+    outline: none;
+}
+
+.button:hover {
+    background: #008000;/* green  color */
+}
+
+.button:active {
+    background: #7FFFD4;/* green  color */
+}
+
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
