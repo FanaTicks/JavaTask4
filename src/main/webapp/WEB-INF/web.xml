@@ -11,7 +11,7 @@
 
   <servlet>
     <servlet-name>EnterAcount</servlet-name>
-    <servlet-class>my.pack.EnterAcount</servlet-class>
+    <servlet-class>authorization.pack.EnterAcount</servlet-class>
   </servlet>
 
   <servlet-mapping>
@@ -21,7 +21,7 @@
 
   <filter>
     <filter-name>EnterAcountTrue</filter-name>
-    <filter-class>my.pack.EnterAcountTrue</filter-class>
+    <filter-class>authorization.pack.FilterLogin</filter-class>
     <init-param>
       <param-name>active</param-name>
       <param-value>true</param-value>

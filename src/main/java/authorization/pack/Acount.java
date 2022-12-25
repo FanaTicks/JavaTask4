@@ -1,4 +1,4 @@
-package my.pack;
+package authorization.pack;
 
 public class Acount {
     public String login;

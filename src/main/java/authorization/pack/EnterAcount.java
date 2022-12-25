@@ -1,4 +1,4 @@
-package my.pack;
+package authorization.pack;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServlet;
